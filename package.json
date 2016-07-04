@@ -1,0 +1,76 @@
+{
+  "name": "post-sequence",
+  "version": "0.0.0",
+  "description": "A sequence for configuration posthtml and postcss plugins",
+  "main": "lib/index.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "files": [
+    "lib/"
+  ],
+  "scripts": {
+    "clean": "rm -rf lib && mkdir lib",
+    "build": "npm run clean && babel src/ -d lib/",
+    "prepublish": "npm run build",
+    "pretest": "xo src/**/*.js test/**/*.js",
+    "test": "nyc ava",
+    "update": "updtr"
+  },
+  "ava": {
+    "require": [
+      "babel-register"
+    ]
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ],
+    "plugins": [
+      "add-module-exports"
+    ],
+    "comments": false,
+    "compact": true,
+    "minified": true
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "ava-codemods": "^0.2.1",
+    "babel-cli": "^6.10.1",
+    "babel-plugin-add-module-exports": "^0.2.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-min": "^0.1.9",
+    "babel-register": "^6.7.2",
+    "coveralls": "^2.11.9",
+    "nyc": "^6.4.4",
+    "updtr": "^0.2.1",
+    "xo": "^0.16.0"
+  },
+  "keywords": [
+    "post",
+    "HTML",
+    "CSS",
+    "PostHTML",
+    "PostCSS",
+    "Package",
+    "Plugins",
+    "Config",
+    "Sequence",
+    "Orders"
+  ],
+  "author": {
+    "name": "Ivan Demidov",
+    "email": "Scrum@list.ru",
+    "url": "https://twitter.com/Scrum_"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/postload/post-sequence.git"
+  },
+  "bugs": {
+    "url": "https://github.com/postload/post-sequence/issues"
+  },
+  "homepage": "https://github.com/postload/post-sequence#readme",
+  "license": "MIT"
+}
