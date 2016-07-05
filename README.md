@@ -35,7 +35,7 @@ const posthtmlConfig = {
   }
 }
 
-sequence(config, {processor: 'posthtml', extend: {}}) 
+sequence(config, {processor: 'posthtml', extend: {}, namespace: false}) 
 // return ==> {"include": {...}, "bem": {...}, "styleToFile": {...}} 
 ```
 Returns your config sorted according to the internal configuration or according to the extended.
@@ -103,11 +103,38 @@ Type: `object`
 Default: `{}`  
 *The extend has a higher priority, and in the case of crossing names of the plugins value is transferred to the extension will be higher than the internal configuration.*
 
+#### `namespace`
+Type: `boolean`  
+Default: `false`  
+*Value set to true will consider that your config contains the names of plugins with a prefix of processor*
+
+## Example
+
+### Use option `namespace`
+```js
+import sequence from 'post-sequence';
+
+const posthtmlConfig = {
+  "posthtml-bem": {
+      "elemPrefix": "__",
+      "modPrefix": "-",
+      "modDlmtr": "--"
+  },
+  "posthtml-include": {
+      "root": "./",
+      "encoding": "utf-8"
+  }
+}
+
+sequence(config, {processor: 'posthtml', namespace: true}) 
+// return ==> {"posthtml-include": {...}, "posthtml-bem": {...}} 
+```
+
 ## LICENSE
 
 > MIT License (MIT)
 
->Copyright (c) post-sequence <scrum@list.ru>
+>Copyright (c) Ivan Demidov <scrum@list.ru>
 
 > Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
