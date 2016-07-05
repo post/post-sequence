@@ -5,7 +5,7 @@ test('simpe test', t => {
 	t.true(typeof sequence === 'function');
 });
 
-test('should sort up include', t => {
+test('should sort up modules', t => {
 	const inputConfig = {
 		styleToFile: {
 			path: './dist/style.css'
@@ -29,4 +29,35 @@ test('should sort up include', t => {
 	};
 
 	t.deepEqual(Object.keys(sequence(inputConfig, {processor: 'posthtml'})), Object.keys(outputConfig));
+});
+
+test('should return empty object', t => {
+	const inputConfig = {};
+	t.falsy(Object.keys(sequence(inputConfig, {processor: 'posthtml'})).length);
+});
+
+test('should sort up modules with options namespace', t => {
+	const inputConfig = {
+		'posthtml-style-to-file': {
+			path: './dist/style.css'
+		},
+		'posthtml-include': {
+			root: './',
+			encoding: 'utf-8'
+		},
+		'posthtml-modules': {}
+	};
+
+	const outputConfig = {
+		'posthtml-modules': {},
+		'posthtml-include': {
+			root: './',
+			encoding: 'utf-8'
+		},
+		'posthtml-style-to-file': {
+			path: './dist/style.css'
+		}
+	};
+
+	t.deepEqual(Object.keys(sequence(inputConfig, {processor: 'posthtml', namespace: true})), Object.keys(outputConfig));
 });
