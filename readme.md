@@ -50,6 +50,9 @@ Returns your config sorted according to the internal configuration or according 
   },
   "modules": {
     "priority": 999  
+  },
+  "beautify": {
+    "priority": 0
   }
 }
 ```
