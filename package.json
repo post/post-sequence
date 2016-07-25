@@ -1,6 +1,6 @@
 {
   "name": "post-sequence",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A sequence for configuration posthtml and postcss plugins",
   "main": "lib/index.js",
   "engines": {
