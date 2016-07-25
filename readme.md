@@ -21,27 +21,28 @@ $ npm i -S post-sequence
 import sequence from 'post-sequence';
 
 const posthtmlConfig = {
-  "bem": {
-      "elemPrefix": "__",
-      "modPrefix": "-",
-      "modDlmtr": "--"
+  bem: {
+      elemPrefix: '__',
+      modPrefix: '-',
+      modDlmtr: '--'
   },
-  "include": {
-      "root": "./",
-      "encoding": "utf-8"
+  include: {
+      root: './',
+      encoding: 'utf-8'
   },
-  "styleToFile": {
-      "path": "./dist/style.css"
+  styleToFile: {
+      path: './dist/style.css'
   }
-}
+};
 
-sequence(config, {processor: 'posthtml', extend: {}, namespace: false}) 
-// return ==> {"include": {...}, "bem": {...}, "styleToFile": {...}} 
+sequence(posthtmlConfig, {processor: 'posthtml', extend: {}, namespace: false});
+// return ==> {"include": {...}, "bem": {...}, "styleToFile": {...}}
 ```
 Returns your config sorted according to the internal configuration or according to the extended.
 
 ## posthtml configuration sequence
 <img align="left" width="95" height="130" title="PostHTML" src="http://posthtml.github.io/posthtml/logo.svg">
+
 ```json
 {
   "include": {
@@ -55,6 +56,7 @@ Returns your config sorted according to the internal configuration or according 
 
 ## postcss configuration sequence
 <img align="left" width="95" height="95" title="PostCSS" src="http://postcss.github.io/postcss/logo.svg">
+
 ```json
 {
   "devtools": {
@@ -115,19 +117,19 @@ Default: `false`
 import sequence from 'post-sequence';
 
 const posthtmlConfig = {
-  "posthtml-bem": {
-      "elemPrefix": "__",
-      "modPrefix": "-",
-      "modDlmtr": "--"
+  'posthtml-bem': {
+      elemPrefix: '__',
+      modPrefix: '-',
+      modDlmtr: '--'
   },
-  "posthtml-include": {
-      "root": "./",
-      "encoding": "utf-8"
+  'posthtml-include': {
+      root: './',
+      encoding: 'utf-8'
   }
-}
+};
 
-sequence(config, {processor: 'posthtml', namespace: true}) 
-// return ==> {"posthtml-include": {...}, "posthtml-bem": {...}} 
+sequence(posthtmlConfig, {processor: 'posthtml', namespace: true});
+// return ==> {"posthtml-include": {...}, "posthtml-bem": {...}}
 ```
 
 ## LICENSE
