@@ -1,3 +1,11 @@
+<a name="0.1.2"></a>
+## 0.1.2 (2016-07-25)
+
+* 0.1.2 ([361bcb4](https://github.com/postload/post-sequence/commit/361bcb4))
+* chore(changelog): Update changelog ([3c2dd6a](https://github.com/postload/post-sequence/commit/3c2dd6a))
+
+
+
 <a name="0.1.1"></a>
 ## 0.1.1 (2016-07-25)
 
