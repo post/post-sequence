@@ -43,7 +43,7 @@
     "babel-preset-min": "^0.1.9",
     "babel-register": "^6.7.2",
     "coveralls": "^2.11.9",
-    "nyc": "^7.0.0",
+    "nyc": "^7.1.0",
     "updtr": "^0.2.1",
     "xo": "^0.16.0"
   },
