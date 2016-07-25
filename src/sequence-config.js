@@ -4,9 +4,6 @@ export const posthtml = {
 	},
 	modules: {
 		priority: 999
-	},
-	beautify: {
-		priority: 0
 	}
 };
 
