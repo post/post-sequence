@@ -1,3 +1,16 @@
+<a name="0.1.4"></a>
+## 0.1.4 (2016-08-02)
+
+* 0.1.4 ([0872a5c](https://github.com/postload/post-sequence/commit/0872a5c))
+* fix(.gitignore): incorrect write value ([7b12a9e](https://github.com/postload/post-sequence/commit/7b12a9e))
+* fix(*): fix according to clinton recommendations ([fee0d45](https://github.com/postload/post-sequence/commit/fee0d45))
+* chore(changelog): Update changelog ([2eb79b3](https://github.com/postload/post-sequence/commit/2eb79b3))
+* chore(package): update babel-register to version 6.11.6 ([13805da](https://github.com/postload/post-sequence/commit/13805da))
+* chore(package): update clinton to v0.7.1 ([055d267](https://github.com/postload/post-sequence/commit/055d267))
+* chore(package): update eslint to version 3.2.0 ([c4dcf43](https://github.com/postload/post-sequence/commit/c4dcf43))
+
+
+
 <a name="0.1.3"></a>
 ## 0.1.3 (2016-07-25)
 
@@ -14,6 +27,7 @@
 * chore(package): change xo to eslint, fixed #5 ([ff77a93](https://github.com/postload/post-sequence/commit/ff77a93)), closes [#5](https://github.com/postload/post-sequence/issues/5)
 * chore(package): update dependencies ([2339b39](https://github.com/postload/post-sequence/commit/2339b39))
 * chore(package): update devDep ([0b40e5e](https://github.com/postload/post-sequence/commit/0b40e5e))
+* chore(package): update nyc to version 7.1.0 ([18fc548](https://github.com/postload/post-sequence/commit/18fc548))
 * feat(sequence-config): add posthtml-beautify, fixed #4 ([d263af3](https://github.com/postload/post-sequence/commit/d263af3)), closes [#4](https://github.com/postload/post-sequence/issues/4)
 * docs(readme): update readme according to lint recommendations, fixed #3 ([2a49ea3](https://github.com/postload/post-sequence/commit/2a49ea3)), closes [#3](https://github.com/postload/post-sequence/issues/3)
 * style(package): update pkg according to recommendations clinton ([6f606e9](https://github.com/postload/post-sequence/commit/6f606e9))
