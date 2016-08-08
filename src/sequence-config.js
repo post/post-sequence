@@ -46,5 +46,17 @@ export const postcss = {
 	},
 	nested: {
 		priority: 9991
+	},
+	sorting: {
+		priority: 9990
+	},
+	styleGuide: {
+		priority: 9989
+	},
+	discardComments: {
+		priority: 9988
+	},
+	csso: {
+		priority: 9987
 	}
 };
