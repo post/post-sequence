@@ -1,3 +1,14 @@
+<a name="0.1.5"></a>
+## 0.1.5 (2016-08-08)
+
+* 0.1.5 ([d67b4f0](https://github.com/postload/post-sequence/commit/d67b4f0))
+* chore(changelog): Update changelog ([5fb7c80](https://github.com/postload/post-sequence/commit/5fb7c80))
+* chore(package): update devDep ([b00a7e2](https://github.com/postload/post-sequence/commit/b00a7e2))
+* refactor(config): add more postcss pkg, fixed #27 ([020fd8c](https://github.com/postload/post-sequence/commit/020fd8c)), closes [#27](https://github.com/postload/post-sequence/issues/27)
+* refactor(config): add more posthtml pkg, fixed #26 ([5691d10](https://github.com/postload/post-sequence/commit/5691d10)), closes [#26](https://github.com/postload/post-sequence/issues/26)
+
+
+
 <a name="0.1.4"></a>
 ## 0.1.4 (2016-08-02)
 

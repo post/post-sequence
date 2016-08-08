@@ -5,6 +5,12 @@ export const posthtml = {
 	modules: {
 		priority: 999
 	},
+	inlineAssets: {
+		priority: 2
+	},
+	inlineCss: {
+		priority: 1
+	},
 	beautify: {
 		priority: 0
 	}
@@ -40,5 +46,17 @@ export const postcss = {
 	},
 	nested: {
 		priority: 9991
+	},
+	sorting: {
+		priority: 9990
+	},
+	styleGuide: {
+		priority: 9989
+	},
+	discardComments: {
+		priority: 9988
+	},
+	csso: {
+		priority: 9987
 	}
 };
