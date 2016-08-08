@@ -5,6 +5,12 @@ export const posthtml = {
 	modules: {
 		priority: 999
 	},
+	inlineAssets: {
+		priority: 2
+	},
+	inlineCss: {
+		priority: 1
+	},
 	beautify: {
 		priority: 0
 	}
