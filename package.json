@@ -3,14 +3,7 @@
   "version": "0.1.5",
   "description": "A sequence for configuration posthtml and postcss plugins",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/postload/post-sequence.git"
-  },
-  "homepage": "https://github.com/postload/post-sequence#readme",
-  "bugs": {
-    "url": "https://github.com/postload/post-sequence/issues"
-  },
+  "repository": "postload/post-sequence",
   "author": {
     "name": "Ivan Demidov",
     "email": "Scrum@list.ru",
