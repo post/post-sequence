@@ -31,6 +31,15 @@ test('should sort up modules', t => {
 	t.deepEqual(Object.keys(sequence(inputConfig, {processor: 'posthtml'})), Object.keys(outputConfig));
 });
 
+test('should return input config', t => {
+	const inputConfig = {
+		styleToFile: {
+			path: './dist/style.css'
+		}
+	};
+	t.deepEqual(sequence(inputConfig), inputConfig);
+});
+
 test('should return empty object', t => {
 	const inputConfig = {};
 	t.falsy(Object.keys(sequence(inputConfig, {processor: 'posthtml'})).length);
