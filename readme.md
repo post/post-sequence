@@ -49,7 +49,13 @@ Returns your config sorted according to the internal configuration or according 
     "priority": 998
   },
   "modules": {
-    "priority": 999  
+    "priority": 999
+  },
+  "inlineAssets": {
+    "priority": 2
+  },
+  "inlineCss": {
+    "priority": 1
   },
   "beautify": {
     "priority": 0
@@ -91,6 +97,18 @@ Returns your config sorted according to the internal configuration or according 
   },
   "nested": {
     "priority": 9991
+  },
+  "sorting": {
+    "priority": 9990
+  },
+  "styleGuide": {
+    "priority": 9989
+  },
+  "discardComments": {
+    "priority": 9988
+  },
+  "csso": {
+    "priority": 9987
   }
 }
 ```
