@@ -14,7 +14,7 @@
 * chore(package): update nyc to version 8.1.0 ([c59767e](https://github.com/postload/post-sequence/commit/c59767e))
 * test(test-sequence): bump code coverage ([89d860d](https://github.com/postload/post-sequence/commit/89d860d))
 * perf(package): update postpublich changelog to lowercase ([4022e79](https://github.com/postload/post-sequence/commit/4022e79))
-* perf(sequence-config): add new package in config list, fixed #29 ([290cf88](https://github.com/postload/post-sequence/commit/290cf88)), closes [#29](https://github.com/postload/post-sequence/issues/29)
+* perf(sequence-config): add new package in config list, fixed #30 ([290cf88](https://github.com/postload/post-sequence/commit/290cf88)), closes [#30](https://github.com/postload/post-sequence/issues/30)
 * docs(readme): update list config, fixed #29 ([d34cd02](https://github.com/postload/post-sequence/commit/d34cd02)), closes [#29](https://github.com/postload/post-sequence/issues/29)
 * fix(package): fix broken tests ([990fe41](https://github.com/postload/post-sequence/commit/990fe41))
 
