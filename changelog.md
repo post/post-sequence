@@ -1,3 +1,25 @@
+<a name="0.1.6"></a>
+## 0.1.6 (2016-09-12)
+
+* 0.1.6 ([be6e58d](https://github.com/postload/post-sequence/commit/be6e58d))
+* chore(changelog): Update changelog ([8017e40](https://github.com/postload/post-sequence/commit/8017e40))
+* chore(package): change babel-min to babel-babili, fixed #41 ([767c1b7](https://github.com/postload/post-sequence/commit/767c1b7)), closes [#41](https://github.com/postload/post-sequence/issues/41)
+* chore(package): update babel-preset-es2015 to version 6.14.0 ([8c65d74](https://github.com/postload/post-sequence/commit/8c65d74))
+* chore(package): update babel-register to version 6.14.0 ([6278b77](https://github.com/postload/post-sequence/commit/6278b77))
+* chore(package): update clinton to version 0.8.0 ([812abb0](https://github.com/postload/post-sequence/commit/812abb0))
+* chore(package): update eslint to version 3.3.0 ([84556bd](https://github.com/postload/post-sequence/commit/84556bd))
+* chore(package): update eslint-config-xo to version 0.15.4 ([8067e8f](https://github.com/postload/post-sequence/commit/8067e8f))
+* chore(package): update eslint-formatter-pretty to version 0.3.1 ([134dccf](https://github.com/postload/post-sequence/commit/134dccf))
+* chore(package): update eslint-plugin-ava to version 3.0.0 ([481a5a0](https://github.com/postload/post-sequence/commit/481a5a0))
+* chore(package): update nyc to version 8.1.0 ([c59767e](https://github.com/postload/post-sequence/commit/c59767e))
+* test(test-sequence): bump code coverage ([89d860d](https://github.com/postload/post-sequence/commit/89d860d))
+* perf(package): update postpublich changelog to lowercase ([4022e79](https://github.com/postload/post-sequence/commit/4022e79))
+* perf(sequence-config): add new package in config list, fixed #29 ([290cf88](https://github.com/postload/post-sequence/commit/290cf88)), closes [#29](https://github.com/postload/post-sequence/issues/29)
+* docs(readme): update list config, fixed #29 ([d34cd02](https://github.com/postload/post-sequence/commit/d34cd02)), closes [#29](https://github.com/postload/post-sequence/issues/29)
+* fix(package): fix broken tests ([990fe41](https://github.com/postload/post-sequence/commit/990fe41))
+
+
+
 <a name="0.1.5"></a>
 ## 0.1.5 (2016-08-08)
 

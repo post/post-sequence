@@ -11,6 +11,12 @@ export const posthtml = {
 	inlineCss: {
 		priority: 1
 	},
+	removeTags: {
+		priority: 1
+	},
+	removeAttributes: {
+		priority: 1
+	},
 	beautify: {
 		priority: 0
 	}
