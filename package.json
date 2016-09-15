@@ -59,7 +59,7 @@
     "clinton": "^0.8.0",
     "conventional-changelog-cli": "^1.2.0",
     "conventional-changelog-lint": "^1.0.0",
-    "coveralls": "^2.11.11",
+    "coveralls": "^2.11.13",
     "eslint": "^3.5.0",
     "eslint-config-xo": "^0.15.4",
     "eslint-formatter-pretty": "^0.3.1",
