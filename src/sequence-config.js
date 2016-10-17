@@ -1,15 +1,15 @@
 export const posthtml = {
-	include: {
-		priority: 998
-	},
 	modules: {
 		priority: 999
+	},
+	include: {
+		priority: 998
 	},
 	inlineAssets: {
 		priority: 2
 	},
 	inlineCss: {
-		priority: 1
+		priority: 2
 	},
 	removeTags: {
 		priority: 1

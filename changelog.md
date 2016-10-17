@@ -1,3 +1,30 @@
+<a name="0.1.7"></a>
+## 0.1.7 (2016-10-17)
+
+* 0.1.7 ([d99751f](https://github.com/postload/post-sequence/commit/d99751f))
+* Update changelog.md ([9a67673](https://github.com/postload/post-sequence/commit/9a67673))
+* Update package.json ([2947911](https://github.com/postload/post-sequence/commit/2947911))
+* fix(.travis): remove cache node modules ([fc5df53](https://github.com/postload/post-sequence/commit/fc5df53))
+* fix(sequence-config): fix incorrect priority for inlineCSS, fixed #58 ([432df35](https://github.com/postload/post-sequence/commit/432df35)), closes [#58](https://github.com/postload/post-sequence/issues/58)
+* chore(changelog): Update changelog ([2dde135](https://github.com/postload/post-sequence/commit/2dde135))
+* chore(package): update ava-codemods to version 0.3.0 ([5ccc0c6](https://github.com/postload/post-sequence/commit/5ccc0c6))
+* chore(package): update babel-eslint to version 7.0.0 ([5be4a11](https://github.com/postload/post-sequence/commit/5be4a11))
+* chore(package): update babel-preset-babili to version 0.0.5 ([cf98014](https://github.com/postload/post-sequence/commit/cf98014))
+* chore(package): update babel-register to version 6.16.0 ([876742c](https://github.com/postload/post-sequence/commit/876742c))
+* chore(package): update coveralls to version 2.11.13 ([67fe30b](https://github.com/postload/post-sequence/commit/67fe30b))
+* chore(package): update coveralls to version 2.11.14 ([b104d09](https://github.com/postload/post-sequence/commit/b104d09))
+* chore(package): update eslint to version 3.6.0 ([cc032ef](https://github.com/postload/post-sequence/commit/cc032ef))
+* chore(package): update eslint to version 3.8.0 ([a49b0f7](https://github.com/postload/post-sequence/commit/a49b0f7))
+* chore(package): update eslint-config-xo to version 0.17.0 ([726a5f3](https://github.com/postload/post-sequence/commit/726a5f3))
+* chore(package): update eslint-formatter-pretty to version 1.0.0 ([f0b8600](https://github.com/postload/post-sequence/commit/f0b8600))
+* chore(package): update eslint-formatter-pretty to version 1.1.0 ([33ea08f](https://github.com/postload/post-sequence/commit/33ea08f))
+* chore(package): update eslint-plugin-ava to version 3.1.1 ([4e03f5a](https://github.com/postload/post-sequence/commit/4e03f5a))
+* chore(package): update eslint-plugin-xo to version 1.0.0 ([1c571b1](https://github.com/postload/post-sequence/commit/1c571b1))
+* chore(package): update husky to version 0.11.9 ([d135d67](https://github.com/postload/post-sequence/commit/d135d67))
+* chore(package): update nyc to version 8.3.0 ([ec66f72](https://github.com/postload/post-sequence/commit/ec66f72))
+
+
+
 <a name="0.1.6"></a>
 ## 0.1.6 (2016-09-12)
 
@@ -8,13 +35,14 @@
 * chore(package): update babel-register to version 6.14.0 ([6278b77](https://github.com/postload/post-sequence/commit/6278b77))
 * chore(package): update clinton to version 0.8.0 ([812abb0](https://github.com/postload/post-sequence/commit/812abb0))
 * chore(package): update eslint to version 3.3.0 ([84556bd](https://github.com/postload/post-sequence/commit/84556bd))
+* chore(package): update eslint to version 3.5.0 ([bddfb32](https://github.com/postload/post-sequence/commit/bddfb32))
 * chore(package): update eslint-config-xo to version 0.15.4 ([8067e8f](https://github.com/postload/post-sequence/commit/8067e8f))
 * chore(package): update eslint-formatter-pretty to version 0.3.1 ([134dccf](https://github.com/postload/post-sequence/commit/134dccf))
 * chore(package): update eslint-plugin-ava to version 3.0.0 ([481a5a0](https://github.com/postload/post-sequence/commit/481a5a0))
 * chore(package): update nyc to version 8.1.0 ([c59767e](https://github.com/postload/post-sequence/commit/c59767e))
 * test(test-sequence): bump code coverage ([89d860d](https://github.com/postload/post-sequence/commit/89d860d))
 * perf(package): update postpublich changelog to lowercase ([4022e79](https://github.com/postload/post-sequence/commit/4022e79))
-* perf(sequence-config): add new package in config list, fixed #30 ([290cf88](https://github.com/postload/post-sequence/commit/290cf88)), closes [#30](https://github.com/postload/post-sequence/issues/30)
+* perf(sequence-config): add new package in config list, fixed #29 ([290cf88](https://github.com/postload/post-sequence/commit/290cf88)), closes [#29](https://github.com/postload/post-sequence/issues/29)
 * docs(readme): update list config, fixed #29 ([d34cd02](https://github.com/postload/post-sequence/commit/d34cd02)), closes [#29](https://github.com/postload/post-sequence/issues/29)
 * fix(package): fix broken tests ([990fe41](https://github.com/postload/post-sequence/commit/990fe41))
 
