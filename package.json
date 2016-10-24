@@ -50,7 +50,7 @@
   "devDependencies": {
     "ava": "*",
     "ava-codemods": "^0.3.0",
-    "babel-cli": "^6.11.4",
+    "babel-cli": "^6.18.0",
     "babel-eslint": "^7.0.0",
     "babel-plugin-add-module-exports": "^0.2.0",
     "babel-preset-babili": "0.0.5",
