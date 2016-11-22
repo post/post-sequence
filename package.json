@@ -1,11 +1,11 @@
 {
   "name": "post-sequence",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "A sequence for configuration posthtml and postcss plugins",
   "license": "MIT",
-  "repository": "postload/post-sequence",
-  "homepage": "postload/post-sequence#readme",
-  "bugs": "postload/post-sequence/issues",
+  "repository": "gitscrum/post-sequence",
+  "homepage": "gitscrum/post-sequence#readme",
+  "bugs": "gitscrum/post-sequence/issues",
   "author": {
     "name": "Ivan Demidov",
     "email": "Scrum@list.ru",
@@ -50,8 +50,8 @@
   "devDependencies": {
     "ava": "*",
     "ava-codemods": "^0.3.0",
-    "babel-cli": "^6.11.4",
-    "babel-eslint": "^7.0.0",
+    "babel-cli": "^6.18.0",
+    "babel-eslint": "^7.1.0",
     "babel-plugin-add-module-exports": "^0.2.0",
     "babel-preset-babili": "0.0.8",
     "babel-preset-es2015": "^6.14.0",
@@ -60,18 +60,18 @@
     "conventional-changelog-cli": "^1.2.0",
     "conventional-changelog-lint": "^1.0.0",
     "coveralls": "^2.11.14",
-    "eslint": "^3.8.0",
+    "eslint": "^3.10.1",
     "eslint-config-xo": "^0.17.0",
     "eslint-formatter-pretty": "^1.1.0",
-    "eslint-plugin-ava": "^3.1.1",
-    "eslint-plugin-babel": "^3.3.0",
+    "eslint-plugin-ava": "^4.0.0",
+    "eslint-plugin-babel": "^4.0.0",
     "eslint-plugin-markdown": "^1.0.0-beta.2",
     "eslint-plugin-require-path-exists": "^1.1.5",
     "eslint-plugin-xo": "^1.0.0",
     "husky": "^0.11.9",
     "np": "^2.8.0",
-    "nyc": "^8.3.2",
-    "updtr": "^0.2.1"
+    "nyc": "^9.0.1",
+    "updtr": "^0.2.2"
   },
   "ava": {
     "require": [
