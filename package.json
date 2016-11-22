@@ -3,9 +3,9 @@
   "version": "0.1.7",
   "description": "A sequence for configuration posthtml and postcss plugins",
   "license": "MIT",
-  "repository": "postload/post-sequence",
-  "homepage": "postload/post-sequence#readme",
-  "bugs": "postload/post-sequence/issues",
+  "repository": "gitscrum/post-sequence",
+  "homepage": "gitscrum/post-sequence#readme",
+  "bugs": "gitscrum/post-sequence/issues",
   "author": {
     "name": "Ivan Demidov",
     "email": "Scrum@list.ru",
@@ -48,7 +48,7 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "ava": "0.17.0",
+    "ava": "*",
     "ava-codemods": "^0.3.0",
     "babel-cli": "^6.18.0",
     "babel-eslint": "^7.1.0",
