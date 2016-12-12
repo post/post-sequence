@@ -1,3 +1,18 @@
+<a name="0.1.9"></a>
+## 0.1.9 (2016-12-12)
+
+* 0.1.9 ([659d865](https://github.com/gitscrum/post-sequence/commit/659d865))
+* chore(changelog): Update changelog ([ef7fbc6](https://github.com/gitscrum/post-sequence/commit/ef7fbc6))
+* chore(package): add testen, fixed #88 ([d759dfc](https://github.com/gitscrum/post-sequence/commit/d759dfc)), closes [#88](https://github.com/gitscrum/post-sequence/issues/88)
+* chore(package): change preset-es2015 to preset-env, fixed #86 ([0a5eddc](https://github.com/gitscrum/post-sequence/commit/0a5eddc)), closes [#86](https://github.com/gitscrum/post-sequence/issues/86)
+* chore(package): update babel-preset-babili to version 0.0.9 ([5eea453](https://github.com/gitscrum/post-sequence/commit/5eea453))
+* chore(package): update depDev ([1b1d99a](https://github.com/gitscrum/post-sequence/commit/1b1d99a))
+* chore(package): update eslint to version 3.11.1 ([4d8fc15](https://github.com/gitscrum/post-sequence/commit/4d8fc15))
+* chore(package): update eslint to version 3.12.0 ([c7b82cf](https://github.com/gitscrum/post-sequence/commit/c7b82cf))
+* chore(package): update nyc to version 10.0.0 ([646e821](https://github.com/gitscrum/post-sequence/commit/646e821))
+
+
+
 <a name="0.1.8"></a>
 ## 0.1.8 (2016-11-22)
 
