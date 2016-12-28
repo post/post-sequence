@@ -6,18 +6,21 @@ export const posthtml = {
 		priority: 998
 	},
 	inlineAssets: {
-		priority: 2
+		priority: 5
 	},
 	inlineCss: {
-		priority: 2
+		priority: 4
 	},
 	removeTags: {
-		priority: 1
+		priority: 3
 	},
 	removeAttributes: {
-		priority: 1
+		priority: 2
 	},
 	beautify: {
+		priority: 1
+	},
+	reporter: {
 		priority: 0
 	}
 };
