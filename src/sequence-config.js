@@ -5,11 +5,11 @@ export const posthtml = {
 	include: {
 		priority: 998
 	},
-	bem:{
-		priority:997
+	bem: {
+		priority: 997
 	},
-	customElements:{
-		priority:996
+	customElements: {
+		priority: 996
 	},
 	inlineAssets: {
 		priority: 5
