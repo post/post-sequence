@@ -28,7 +28,8 @@
     "lintmd": "eslint --ext md --rule indent: [error, 4] .",
     "pretest": "clinton && npm run lintjs && npm run lintmd",
     "test": "nyc ava",
-    "update": "updtr"
+    "update": "updtr",
+    "testen": "testen -n -- ava"
   },
   "files": [
     "lib/"
