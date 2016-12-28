@@ -1,6 +1,6 @@
 {
   "name": "post-sequence",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "A sequence for configuration posthtml and postcss plugins",
   "license": "MIT",
   "repository": "gitscrum/post-sequence",
@@ -17,7 +17,7 @@
   },
   "scripts": {
     "commitmsg": "conventional-changelog-lint -e",
-    "postpublish": "conventional-changelog -i changelog.md -s -r 0 && git commit -am \"chore(changelog): Update changelog\"",
+    "postpublish": "conventional-changelog -i changelog.md -s -r 0 && git commit -am \"chore(changelog): Update changelog v`npm view post-sequence version`\"",
     "patch": "np patch --any-branch",
     "minor": "np minor --any-branch",
     "major": "np major --any-branch",
@@ -28,7 +28,8 @@
     "lintmd": "eslint --ext md --rule indent: [error, 4] .",
     "pretest": "clinton && npm run lintjs && npm run lintmd",
     "test": "nyc ava",
-    "update": "updtr"
+    "update": "updtr",
+    "testen": "testen -n -- ava"
   },
   "files": [
     "lib/"
@@ -68,7 +69,7 @@
     "eslint-plugin-markdown": "^1.0.0-beta.2",
     "eslint-plugin-require-path-exists": "^1.1.5",
     "eslint-plugin-xo": "^1.0.0",
-    "husky": "^0.11.9",
+    "husky": "^0.12.0",
     "np": "^2.11.0",
     "nyc": "^10.0.0",
     "testen": "^1.8.2",

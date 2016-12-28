@@ -1,3 +1,19 @@
+<a name="0.1.10"></a>
+## 0.1.10 (2016-12-28)
+
+* 0.1.10 ([ba4f73b](https://github.com/gitscrum/post-sequence/commit/ba4f73b))
+* fix(package): incorrect pkg name in postpublish ([9455a5c](https://github.com/gitscrum/post-sequence/commit/9455a5c))
+* fix(package): unbump ([7801e19](https://github.com/gitscrum/post-sequence/commit/7801e19))
+* chore(changelog): Update changelog ([ed033a9](https://github.com/gitscrum/post-sequence/commit/ed033a9))
+* chore(package): add version on prepublich commit ([935d7d1](https://github.com/gitscrum/post-sequence/commit/935d7d1))
+* chore(package): update babel-preset-env to version 1.1.1 ([369dffc](https://github.com/gitscrum/post-sequence/commit/369dffc))
+* chore(package): update depDev ([35db586](https://github.com/gitscrum/post-sequence/commit/35db586))
+* feat(sequence-config): add bem, customeElements to posthtml, close #94 ([5a232dc](https://github.com/gitscrum/post-sequence/commit/5a232dc)), closes [#94](https://github.com/gitscrum/post-sequence/issues/94)
+* feat(sequence-config): add posthtml-reporter, close #93 ([74c1146](https://github.com/gitscrum/post-sequence/commit/74c1146)), closes [#93](https://github.com/gitscrum/post-sequence/issues/93)
+* test(package): add script testen. close #90 ([5b2fe29](https://github.com/gitscrum/post-sequence/commit/5b2fe29)), closes [#90](https://github.com/gitscrum/post-sequence/issues/90)
+
+
+
 <a name="0.1.9"></a>
 ## 0.1.9 (2016-12-12)
 
