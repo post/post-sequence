@@ -1,4 +1,6 @@
 # post-sequence
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/post-org/post-sequence.svg)](https://greenkeeper.io/)
 > Sequence for configuration [posthtml](https://github.com/posthtml) and [postcss](https://github.com/postcss), sorts the configuration file based on the internal configurator.
 
 [![Travis Build Status](https://img.shields.io/travis/GitScrum/post-sequence.svg?style=flat-square&label=unix)](https://travis-ci.org/GitScrum/post-sequence)[![AppVeyor Build Status](https://img.shields.io/appveyor/ci/GitScrum/post-sequence.svg?style=flat-square&label=windows)](https://ci.appveyor.com/project/GitScrum/post-sequence)[![node](https://img.shields.io/node/v/post-sequence.svg?maxAge=2592000&style=flat-square)]()[![npm version](https://img.shields.io/npm/v/post-sequence.svg?style=flat-square)](https://www.npmjs.com/package/post-sequence)[![Dependency Status](https://david-dm.org/gitscrum/post-sequence.svg?style=flat-square)](https://david-dm.org/gitscrum/post-sequence)[![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg?style=flat-square)](https://github.com/sindresorhus/xo)[![Coveralls status](https://img.shields.io/coveralls/GitScrum/post-sequence.svg?style=flat-square)](https://coveralls.io/r/GitScrum/post-sequence)
