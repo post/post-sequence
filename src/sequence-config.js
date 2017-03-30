@@ -12,18 +12,27 @@ export const posthtml = {
 		priority: 996
 	},
 	inlineAssets: {
-		priority: 6
+		priority: 9
 	},
 	inlineCss: {
-		priority: 5
+		priority: 8
 	},
 	removeTags: {
-		priority: 4
+		priority: 7
+	},
+	classToCssModule: {
+		priority: 6
 	},
 	removeAttributes: {
-		priority: 3
+		priority: 5
+	},
+	cssModules: {
+		priority: 4
 	},
 	beautify: {
+		priority: 3
+	},
+	spaceless: {
 		priority: 2
 	},
 	reporter: {
