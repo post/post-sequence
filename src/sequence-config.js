@@ -30,7 +30,7 @@ export const posthtml = {
 		priority: 1
 	},
 	nanohtml: {
-		priority:0
+		priority: 0
 	}
 };
 
@@ -81,3 +81,5 @@ export const postcss = {
 		priority: 9986
 	}
 };
+
+export const reshape = {};
