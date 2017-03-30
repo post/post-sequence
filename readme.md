@@ -37,7 +37,7 @@ const posthtmlConfig = {
 };
 
 sequence(posthtmlConfig, {processor: 'posthtml', extend: {}, namespace: false});
-// return ==> {"include": {...}, "bem": {...}, "styleToFile": {...}}
+// Return ==> {"include": {...}, "bem": {...}, "styleToFile": {...}}
 ```
 Returns your config sorted according to the internal configuration or according to the extended.
 
@@ -151,7 +151,7 @@ const posthtmlConfig = {
 };
 
 sequence(posthtmlConfig, {processor: 'posthtml', namespace: true});
-// return ==> {"posthtml-include": {...}, "posthtml-bem": {...}}
+// Return ==> {"posthtml-include": {...}, "posthtml-bem": {...}}
 ```
 
 ## LICENSE
