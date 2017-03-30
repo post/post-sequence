@@ -41,37 +41,40 @@ export const postcss = {
 	import: {
 		priority: 9998
 	},
-	each: {
+	math: {
 		priority: 9997
 	},
-	mixins: {
+	each: {
 		priority: 9996
 	},
-	atRulesVariables: {
+	mixins: {
 		priority: 9995
 	},
-	customProperties: {
+	atRulesVariables: {
 		priority: 9994
 	},
-	for: {
+	customProperties: {
 		priority: 9993
 	},
-	conditionals: {
+	for: {
 		priority: 9992
 	},
-	nested: {
+	conditionals: {
 		priority: 9991
 	},
-	sorting: {
+	nested: {
 		priority: 9990
 	},
-	styleGuide: {
+	sorting: {
 		priority: 9989
 	},
-	discardComments: {
+	styleGuide: {
 		priority: 9988
 	},
-	csso: {
+	discardComments: {
 		priority: 9987
+	},
+	csso: {
+		priority: 9986
 	}
 };
