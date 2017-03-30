@@ -12,22 +12,25 @@ export const posthtml = {
 		priority: 996
 	},
 	inlineAssets: {
-		priority: 5
+		priority: 6
 	},
 	inlineCss: {
-		priority: 4
+		priority: 5
 	},
 	removeTags: {
-		priority: 3
+		priority: 4
 	},
 	removeAttributes: {
-		priority: 2
+		priority: 3
 	},
 	beautify: {
-		priority: 1
+		priority: 2
 	},
 	reporter: {
-		priority: 0
+		priority: 1
+	},
+	nanohtml: {
+		priority:0
 	}
 };
 
