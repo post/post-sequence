@@ -1,11 +1,10 @@
 # post-sequence
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/post-org/post-sequence.svg)](https://greenkeeper.io/)
 > Sequence for configuration [posthtml](https://github.com/posthtml) and [postcss](https://github.com/postcss), sorts the configuration file based on the internal configurator.
 
-[![Travis Build Status](https://img.shields.io/travis/GitScrum/post-sequence.svg?style=flat-square&label=unix)](https://travis-ci.org/GitScrum/post-sequence)[![AppVeyor Build Status](https://img.shields.io/appveyor/ci/GitScrum/post-sequence.svg?style=flat-square&label=windows)](https://ci.appveyor.com/project/GitScrum/post-sequence)[![node](https://img.shields.io/node/v/post-sequence.svg?maxAge=2592000&style=flat-square)]()[![npm version](https://img.shields.io/npm/v/post-sequence.svg?style=flat-square)](https://www.npmjs.com/package/post-sequence)[![Dependency Status](https://david-dm.org/gitscrum/post-sequence.svg?style=flat-square)](https://david-dm.org/gitscrum/post-sequence)[![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg?style=flat-square)](https://github.com/sindresorhus/xo)[![Coveralls status](https://img.shields.io/coveralls/GitScrum/post-sequence.svg?style=flat-square)](https://coveralls.io/r/GitScrum/post-sequence)
+[![Travis Build Status](https://img.shields.io/travis/post-org/post-sequence.svg?style=flat-square&label=unix)](https://travis-ci.org/post-org/post-sequence)[![AppVeyor Build Status](https://img.shields.io/appveyor/ci/post-org/post-sequence.svg?style=flat-square&label=windows)](https://ci.appveyor.com/project/post-org/post-sequence)[![node](https://img.shields.io/node/v/post-sequence.svg?maxAge=2592000&style=flat-square)]()[![npm version](https://img.shields.io/npm/v/post-sequence.svg?style=flat-square)](https://www.npmjs.com/package/post-sequence)[![Dependency Status](https://david-dm.org/post-org/post-sequence.svg?style=flat-square)](https://david-dm.org/post-org/post-sequence)[![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg?style=flat-square)](https://github.com/sindresorhus/xo)[![Coveralls status](https://img.shields.io/coveralls/post-org/post-sequence.svg?style=flat-square)](https://coveralls.io/r/post-org/post-sequence)
 
-[![npm downloads](https://img.shields.io/npm/dm/post-sequence.svg?style=flat-square)](https://www.npmjs.com/package/post-sequence)[![npm](https://img.shields.io/npm/dt/post-sequence.svg?style=flat-square)](https://www.npmjs.com/package/post-sequence)[![Package Quality](http://npm.packagequality.com/shield/post-sequence.svg?style=flat-square)](http://packagequality.com/#?package=post-sequence)
+[![npm downloads](https://img.shields.io/npm/dm/post-sequence.svg?style=flat-square)](https://www.npmjs.com/package/post-sequence)[![npm](https://img.shields.io/npm/dt/post-sequence.svg?style=flat-square)](https://www.npmjs.com/package/post-sequence)[![Package Quality](http://npm.packagequality.com/shield/post-sequence.svg?style=flat-square)](http://packagequality.com/#?package=post-sequence)[![Greenkeeper badge](https://badges.greenkeeper.io/post-org/post-sequence.svg?style=flat-square)](https://greenkeeper.io/)
 
 ## Why?
 Saves you from possible errors in the processing due to wrong wiring sequence plug-ins. You just pass in a configuration object of your processor, type of processor and reappointment or extension for internal configurator.
@@ -38,7 +37,7 @@ const posthtmlConfig = {
 };
 
 sequence(posthtmlConfig, {processor: 'posthtml', extend: {}, namespace: false});
-// return ==> {"include": {...}, "bem": {...}, "styleToFile": {...}}
+// Return ==> {"include": {...}, "bem": {...}, "styleToFile": {...}}
 ```
 Returns your config sorted according to the internal configuration or according to the extended.
 
@@ -152,7 +151,7 @@ const posthtmlConfig = {
 };
 
 sequence(posthtmlConfig, {processor: 'posthtml', namespace: true});
-// return ==> {"posthtml-include": {...}, "posthtml-bem": {...}}
+// Return ==> {"posthtml-include": {...}, "posthtml-bem": {...}}
 ```
 
 ## LICENSE

@@ -1,3 +1,23 @@
+<a name="0.1.11"></a>
+## 0.1.11 (2017-03-30)
+
+* 0.1.11 ([fc6e46b](https://github.com/gitscrum/post-sequence/commit/fc6e46b))
+* docs(readme): add Greenkeeper badge  ([ea284c4](https://github.com/gitscrum/post-sequence/commit/ea284c4))
+* docs(readme): fix linting ([90572e1](https://github.com/gitscrum/post-sequence/commit/90572e1))
+* perf(sequence-config): add css math, close #111 ([042b0a6](https://github.com/gitscrum/post-sequence/commit/042b0a6)), closes [#111](https://github.com/gitscrum/post-sequence/issues/111)
+* perf(sequence-config): add html nanohtml, close #110 ([b56dd7b](https://github.com/gitscrum/post-sequence/commit/b56dd7b)), closes [#110](https://github.com/gitscrum/post-sequence/issues/110)
+* perf(sequence-config): add posthtml modules ([e21ca59](https://github.com/gitscrum/post-sequence/commit/e21ca59))
+* perf(sequence-config): add reshape, close #107 ([245c014](https://github.com/gitscrum/post-sequence/commit/245c014)), closes [#107](https://github.com/gitscrum/post-sequence/issues/107)
+* chore(changelog): Update changelog v0.1.9 ([3c9734a](https://github.com/gitscrum/post-sequence/commit/3c9734a))
+* chore(package): update babel-preset-env to version 1.1.8 ([aadd4ea](https://github.com/gitscrum/post-sequence/commit/aadd4ea))
+* chore(package): update clinton to version 0.10.0 ([1dd48e4](https://github.com/gitscrum/post-sequence/commit/1dd48e4))
+* chore(package): update dependencies ([a5fbdd0](https://github.com/gitscrum/post-sequence/commit/a5fbdd0))
+* chore(package): update dependencies ([f3ee243](https://github.com/gitscrum/post-sequence/commit/f3ee243))
+* chore(package): update eslint to version 3.13.1 ([349f4c3](https://github.com/gitscrum/post-sequence/commit/349f4c3))
+* chore(package): update eslint-plugin-ava to version 4.0.1 ([1c51d0f](https://github.com/gitscrum/post-sequence/commit/1c51d0f))
+
+
+
 <a name="0.1.10"></a>
 ## 0.1.10 (2016-12-28)
 

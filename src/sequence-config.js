@@ -12,21 +12,33 @@ export const posthtml = {
 		priority: 996
 	},
 	inlineAssets: {
-		priority: 5
+		priority: 9
 	},
 	inlineCss: {
-		priority: 4
+		priority: 8
 	},
 	removeTags: {
-		priority: 3
+		priority: 7
+	},
+	classToCssModule: {
+		priority: 6
 	},
 	removeAttributes: {
-		priority: 2
+		priority: 5
+	},
+	cssModules: {
+		priority: 4
 	},
 	beautify: {
-		priority: 1
+		priority: 3
+	},
+	spaceless: {
+		priority: 2
 	},
 	reporter: {
+		priority: 1
+	},
+	nanohtml: {
 		priority: 0
 	}
 };
@@ -41,37 +53,42 @@ export const postcss = {
 	import: {
 		priority: 9998
 	},
-	each: {
+	math: {
 		priority: 9997
 	},
-	mixins: {
+	each: {
 		priority: 9996
 	},
-	atRulesVariables: {
+	mixins: {
 		priority: 9995
 	},
-	customProperties: {
+	atRulesVariables: {
 		priority: 9994
 	},
-	for: {
+	customProperties: {
 		priority: 9993
 	},
-	conditionals: {
+	for: {
 		priority: 9992
 	},
-	nested: {
+	conditionals: {
 		priority: 9991
 	},
-	sorting: {
+	nested: {
 		priority: 9990
 	},
-	styleGuide: {
+	sorting: {
 		priority: 9989
 	},
-	discardComments: {
+	styleGuide: {
 		priority: 9988
 	},
-	csso: {
+	discardComments: {
 		priority: 9987
+	},
+	csso: {
+		priority: 9986
 	}
 };
+
+export const reshape = {};
