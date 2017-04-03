@@ -1,6 +1,6 @@
 {
   "name": "post-sequence",
-  "version": "0.1.11",
+  "version": "0.1.12",
   "description": "A sequence for configuration posthtml and postcss plugins",
   "license": "MIT",
   "repository": "gitscrum/post-sequence",
