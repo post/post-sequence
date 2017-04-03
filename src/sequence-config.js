@@ -1,15 +1,18 @@
 export const posthtml = {
-	modules: {
+	extend: {
 		priority: 999
 	},
-	include: {
+	modules: {
 		priority: 998
 	},
-	bem: {
+	include: {
 		priority: 997
 	},
-	customElements: {
+	bem: {
 		priority: 996
+	},
+	customElements: {
+		priority: 995
 	},
 	inlineAssets: {
 		priority: 9
