@@ -1,3 +1,19 @@
+<a name="0.1.12"></a>
+## 0.1.12 (2017-04-03)
+
+* 0.1.12 ([2d7554d](https://github.com/gitscrum/post-sequence/commit/2d7554d))
+* chore(changelog): Update changelog v`npm view post-sequence version` ([72e251e](https://github.com/gitscrum/post-sequence/commit/72e251e))
+* chore(package): update babel-preset-env to version 1.3.2 ([a37c1ca](https://github.com/gitscrum/post-sequence/commit/a37c1ca))
+* chore(package): update clean and postpublish ([d872a9a](https://github.com/gitscrum/post-sequence/commit/d872a9a))
+* chore(package): update conventional-changelog-lint to version 1.1.8 ([dd7eecf](https://github.com/gitscrum/post-sequence/commit/dd7eecf))
+* chore(package): update coveralls to version 2.13.0 ([3f36c21](https://github.com/gitscrum/post-sequence/commit/3f36c21))
+* chore(package): update eslint to version 3.19.0 ([d8e2652](https://github.com/gitscrum/post-sequence/commit/d8e2652))
+* chore(package): update updtr to version 1.0.0 ([22e150f](https://github.com/gitscrum/post-sequence/commit/22e150f))
+* chore(yarn.lock): add yarn ([ebb3ffd](https://github.com/gitscrum/post-sequence/commit/ebb3ffd))
+* perf(sequence-config): add extend, close #120 ([45b0a35](https://github.com/gitscrum/post-sequence/commit/45b0a35)), closes [#120](https://github.com/gitscrum/post-sequence/issues/120)
+
+
+
 <a name="0.1.11"></a>
 ## 0.1.11 (2017-03-30)
 
