@@ -67,7 +67,7 @@
     "eslint-plugin-ava": "^4.0.1",
     "eslint-plugin-babel": "^4.0.0",
     "eslint-plugin-markdown": "^1.0.0-beta.2",
-    "eslint-plugin-require-path-exists": "^1.1.5",
+    "eslint-plugin-require-path-exists": "^1.1.6",
     "eslint-plugin-xo": "^1.0.0",
     "husky": "^0.13.3",
     "np": "^2.13.3",
