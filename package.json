@@ -51,11 +51,11 @@
   "devDependencies": {
     "ava": "*",
     "ava-codemods": "^0.3.0",
-    "babel-cli": "^6.18.0",
     "babel-eslint": "^7.2.3",
+    "babel-cli": "^6.24.1",
     "babel-plugin-add-module-exports": "^0.2.0",
     "babel-preset-babili": "0.0.12",
-    "babel-register": "^6.18.0",
+    "babel-register": "^6.24.1",
     "clinton": "^0.11.0",
     "babel-preset-env": "^1.3.2",
     "conventional-changelog-cli": "^1.2.0",
@@ -70,7 +70,7 @@
     "eslint-plugin-require-path-exists": "^1.1.5",
     "eslint-plugin-xo": "^1.0.0",
     "husky": "^0.13.3",
-    "np": "^2.11.0",
+    "np": "^2.13.3",
     "nyc": "^10.0.0",
     "testen": "^2.2.0",
     "updtr": "^1.0.0"
