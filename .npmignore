@@ -3,4 +3,3 @@ src
 .gitignore
 .travis.yml
 coverage
-.idea
