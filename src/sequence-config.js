@@ -1,97 +1,38 @@
-export const posthtml = {
-	extend: {
-		priority: 999
-	},
-	modules: {
-		priority: 998
-	},
-	include: {
-		priority: 997
-	},
-	bem: {
-		priority: 996
-	},
-	customElements: {
-		priority: 995
-	},
-	inlineAssets: {
-		priority: 9
-	},
-	inlineCss: {
-		priority: 8
-	},
-	removeTags: {
-		priority: 7
-	},
-	classToCssModule: {
-		priority: 6
-	},
-	removeAttributes: {
-		priority: 5
-	},
-	cssModules: {
-		priority: 4
-	},
-	beautify: {
-		priority: 3
-	},
-	spaceless: {
-		priority: 2
-	},
-	reporter: {
-		priority: 1
-	},
-	nanohtml: {
-		priority: 0
-	}
-};
+export const posthtml = [
+  'posthtml-extend',
+  'posthtml-modules',
+  'posthtml-posthtml-modules',
+  'posthtml-include',
+  'posthtml-bem',
+  'posthtml-custom-elements',
+  'posthtml-inline-assets',
+  'posthtml-inline-css',
+  'posthtml-remove-tags',
+  'posthtml-class-to-css-module',
+  'posthtml-remove-attributes',
+  'posthtml-css-modules',
+  'posthtml-beautify',
+  'posthtml-spaceless',
+  'posthtml-reporter',
+  'posthtml-nanohtml'
+];
 
-export const postcss = {
-	devtools: {
-		priority: 9999
-	},
-	easyImport: {
-		priority: 9998
-	},
-	import: {
-		priority: 9998
-	},
-	math: {
-		priority: 9997
-	},
-	each: {
-		priority: 9996
-	},
-	mixins: {
-		priority: 9995
-	},
-	atRulesVariables: {
-		priority: 9994
-	},
-	customProperties: {
-		priority: 9993
-	},
-	for: {
-		priority: 9992
-	},
-	conditionals: {
-		priority: 9991
-	},
-	nested: {
-		priority: 9990
-	},
-	sorting: {
-		priority: 9989
-	},
-	styleGuide: {
-		priority: 9988
-	},
-	discardComments: {
-		priority: 9987
-	},
-	csso: {
-		priority: 9986
-	}
-};
+export const postcss = [
+  'postcss-devtools',
+  'postcss-easy-import',
+  'postcss-import',
+  'postcss-math',
+  'postcss-each',
+  'postcss-mixins',
+  'postcss-at-rules-variables',
+  'postcss-custom-properties',
+  'postcss-for',
+  'postcss-conditionals',
+  'postcss-nested',
+  'postcss-sorting',
+  'postcss-style-guide',
+  'postcss-discard-comments',
+  'postcss-csso'
+];
 
 export const reshape = {};
