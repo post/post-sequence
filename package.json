@@ -4,7 +4,7 @@
   "description": "A sequence for configuration posthtml and postcss plugins",
   "license": "MIT",
   "repository": "gitscrum/post-sequence",
-  "homepage": "gitscrum/post-sequence#readme",
+  "homepage": "https://gitscrum/post-sequence#readme",
   "bugs": "gitscrum/post-sequence/issues",
   "author": {
     "name": "Ivan Demidov",
