@@ -3,9 +3,9 @@
   "version": "0.1.12",
   "description": "A sequence for configuration posthtml and postcss plugins",
   "license": "MIT",
-  "repository": "gitscrum/post-sequence",
-  "homepage": "https://gitscrum/post-sequence#readme",
-  "bugs": "gitscrum/post-sequence/issues",
+  "repository": "scrum/post-sequence",
+  "homepage": "https://scrum/post-sequence#readme",
+  "bugs": "scrum/post-sequence/issues",
   "author": {
     "name": "Ivan Demidov",
     "email": "Scrum@list.ru",
