@@ -14,7 +14,7 @@ Saves you from possible errors in the processing due to wrong wiring sequence pl
 ```bash
 $ npm i -S post-sequence
 ```
-> **Note:** This project is compatible with node v4+
+> **Note:** This project is compatible with node v8+
 
 ## Usage
 
@@ -22,22 +22,22 @@ $ npm i -S post-sequence
 import sequence from 'post-sequence';
 
 const posthtmlConfig = {
-  bem: {
-      elemPrefix: '__',
-      modPrefix: '-',
-      modDlmtr: '--'
+  'posthtml-bem': {
+    elemPrefix: '__',
+    modPrefix: '-',
+    modDlmtr: '--'
   },
-  include: {
-      root: './',
-      encoding: 'utf-8'
+  'posthtml-include': {
+    root: './',
+    encoding: 'utf-8'
   },
-  styleToFile: {
-      path: './dist/style.css'
+  'posthtml-style-to-file': {
+    path: './dist/style.css'
   }
 };
 
-sequence(posthtmlConfig, {processor: 'posthtml', extend: {}, namespace: false});
-// Return ==> {"include": {...}, "bem": {...}, "styleToFile": {...}}
+sequence(posthtmlConfig, {processor: 'posthtml', extend: [2, 'posthtml-style-to-file']});
+// Return ==> {"posthtml-include": {...}, "posthtml-style-to-file": {...}, "posthtml-bem": {...}}
 ```
 Returns your config sorted according to the internal configuration or according to the extended.
 
@@ -45,135 +45,46 @@ Returns your config sorted according to the internal configuration or according 
 <img align="left" width="95" height="130" title="PostHTML" src="http://posthtml.github.io/posthtml/logo.svg">
 
 ```json
-{
-  "include": {
-    "priority": 998
-  },
-  "modules": {
-    "priority": 999
-  },
-  "inlineAssets": {
-    "priority": 2
-  },
-  "inlineCss": {
-    "priority": 1
-  },
-  "beautify": {
-    "priority": 0
-  }
-}
+[
+  "posthtml-include",
+  "posthtml-modules",
+  "posthtml-inline-assets",
+  "posthtml-inline-css",
+  "posthtml-beautify"
+]
 ```
 
 ## postcss configuration sequence
 <img align="left" width="95" height="95" title="PostCSS" src="http://postcss.github.io/postcss/logo.svg">
 
 ```json
-{
-  "devtools": {
-    "priority": 9999
-  },
-  "easyImport": {
-    "priority": 9998
-  },
-  "import": {
-    "priority": 9998
-  },
-  "each": {
-    "priority": 9997
-  },
-  "mixins": {
-    "priority": 9996
-  },
-  "atRulesVariables": {
-    "priority": 9995
-  },
-  "customProperties": {
-    "priority": 9994
-  },
-  "for": {
-    "priority": 9993
-  },
-  "conditionals": {
-    "priority": 9992
-  },
-  "nested": {
-    "priority": 9991
-  },
-  "sorting": {
-    "priority": 9990
-  },
-  "styleGuide": {
-    "priority": 9989
-  },
-  "discardComments": {
-    "priority": 9988
-  },
-  "csso": {
-    "priority": 9987
-  }
-}
+[
+  "postcss-devtools",
+  "postcss-easy-import",
+  "postcss-import",
+  "postcss-each",
+  "postcss-mixins",
+  "postcss-at-rules-variables",
+  "postcss-custom-properties",
+  "postcss-for",
+  "postcss-conditionals",
+  "postcss-nested",
+  "postcss-sorting",
+  "postcss-style-guide",
+  "postcss-discard-comments",
+  "postcss-csso"
+]
 ```
 
 ## Options
 
 #### `processor` 
-Type: `string`  
+Type: `string<posthtml|postcss>`  
 Default: ``  
-*Takes the processor type. There are two types posthtml and postcss*
 
 
 #### `extend`
-Type: `object`  
-Default: `{}`  
-*The extend has a higher priority, and in the case of crossing names of the plugins value is transferred to the extension will be higher than the internal configuration.*
-
-#### `namespace`
-Type: `boolean`  
-Default: `false`  
-*Value set to true will consider that your config contains the names of plugins with a prefix of processor*
-
-## Example
-
-### Use option `namespace`
-```js
-import sequence from 'post-sequence';
-
-const posthtmlConfig = {
-  'posthtml-bem': {
-      elemPrefix: '__',
-      modPrefix: '-',
-      modDlmtr: '--'
-  },
-  'posthtml-include': {
-      root: './',
-      encoding: 'utf-8'
-  }
-};
-
-sequence(posthtmlConfig, {processor: 'posthtml', namespace: true});
-// Return ==> {"posthtml-include": {...}, "posthtml-bem": {...}}
-```
-
-## LICENSE
-
-> MIT License (MIT)
-
->Copyright (c) Ivan Demidov <scrum@list.ru>
-
-> Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-> The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-> THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Type: `array<array>`  
+Default: `[]`  
+Value: `[index, ['plugin-name', ...]]`  
+*To determine the correct index, see the [config](https://github.com/post/post-sequence/blob/master/src/sequence-config.js)*  
