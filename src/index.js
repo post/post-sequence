@@ -1,4 +1,4 @@
-import {posthtml, postcss} from './sequence-config.js';
+import cfg from './sequence-config.js';
 
 export default (config, options = {}) => {
   const {processor, extend} = options;
@@ -6,9 +6,7 @@ export default (config, options = {}) => {
     return config;
   }
 
-  const sequenceConfig = processor === 'posthtml' ?
-    posthtml :
-    postcss;
+  const sequenceConfig = cfg[processor];
 
   if (extend) {
     extend.forEach(([index, plugin]) => sequenceConfig.splice(index, 0, ...[].concat(plugin)));

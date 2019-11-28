@@ -36,3 +36,5 @@ export const postcss = [
 ];
 
 export const reshape = {};
+
+export default {posthtml, postcss, reshape}
